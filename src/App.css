@@ -6,6 +6,7 @@ body {
     text-align: center;
     min-height: 100vh;
     overflow: scroll;
+    border: 2px solid green;
 }
 
 .App-logo {
@@ -19,11 +20,15 @@ body {
     }
 }
 
-
-/* #root {
+#root {
+    /* background-color: red; */
     display: flex;
-    align-items: center;
-} */
+    flex-direction: column;
+}
+
+.Tweets {
+    max-width: 30em;
+}
 
 .tweet {
     /* box-shadow: -4px, -4px; */
