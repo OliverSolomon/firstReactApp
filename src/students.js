@@ -1,22 +1,21 @@
 import React from 'react';
 
-function Details() {
-    const stuff = () =>{
-        const name = "dave";
-        var username = "Dave124";
-        var passwd = "My_password_for_class";
-    
-        Student1 = `I am ${name} and referred to as ${username} and my password is ${passwd}`;
-        alert(Student1);
-    }
+function Tweet() {
 
+    var name = "Oliver";
+    var date = "23/12/2001";
+    var content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero debitis harum voluptates!";
     return ( 
-        <div>
-            {/* <h3>{Student1}</h3> */}
-            <h3> Student1 </h3>
-            <button onClick= {stuff}> Hidden Text </button>
+        <div className="Tweets">
+            <div className="tweet">
+                <div className="headTweet">
+                    <div className="Author"> {name} </div>
+                    <div className="Date">{date}</div>
+                </div>
+                <div className="content">{content}</div>
+            </div>
         </div>
     );
 }
 
-export default Details;
+export default Tweet;
