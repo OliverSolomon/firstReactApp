@@ -4,6 +4,8 @@ body {
 
 .App {
     text-align: center;
+    min-height: 100vh;
+    overflow: scroll;
 }
 
 .App-logo {
@@ -25,5 +27,8 @@ body {
 
 .tweet {
     /* box-shadow: -4px, -4px; */
-    border: 2px solid black;
+    min-height: 7em;
+    border-radius: 30px;
+    border: 2px solid rgba(157, 52, 206, 0.712);
+    background-color: rgba(157, 52, 206, 0.712);
 }
