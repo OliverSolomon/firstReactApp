@@ -16,3 +16,14 @@ body {
         animation: App-logo-spin infinite 20s linear;
     }
 }
+
+
+/* #root {
+    display: flex;
+    align-items: center;
+} */
+
+.tweet {
+    /* box-shadow: -4px, -4px; */
+    border: 2px solid black;
+}
