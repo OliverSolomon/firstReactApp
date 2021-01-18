@@ -1,23 +1,15 @@
 body {
-    background-color: rgba(160, 54, 209, 0.644);
+    background-color: #13194e;
 }
 
 .App {
     text-align: center;
     min-height: 100vh;
     overflow: scroll;
-    border: 2px solid green;
-}
-
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+    transform: translateX(13px);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
 }
 
 #root {
@@ -28,12 +20,25 @@ body {
 
 .Tweets {
     max-width: 30em;
+    margin-top: 2em;
 }
 
 .tweet {
     /* box-shadow: -4px, -4px; */
     min-height: 7em;
     border-radius: 30px;
-    border: 2px solid rgba(157, 52, 206, 0.712);
-    background-color: rgba(157, 52, 206, 0.712);
+    /* border: 2px solid rgba(157, 52, 206, 0.712); */
+    background-color: #13194e;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    font-size: 1.1rem;
+    box-shadow: -13px -13px 10px #0d0f22dc, 13px 13px 10px #4a5191dc;
+}
+
+.headTweet {
+    display: flex;
+    justify-content: space-between;
 }
