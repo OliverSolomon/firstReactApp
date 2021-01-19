@@ -7,9 +7,9 @@ function Hello() {
         alert(text);
     }
     return (
-        <div>
-            <h2>Hello React </h2>
-            <button onClick={sayhello}>Hello React</button>
+        <div >
+            <h2 className="hello">Hello React </h2>
+            <button onClick={sayhello} className = 'cta'>Hello React</button>
         </div>
     );
 }
